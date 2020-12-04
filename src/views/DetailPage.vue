@@ -1,19 +1,19 @@
 <template>
   <div>
     <Header/>
-    <SearchResult/>
+    <Detail/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import SearchResult from '@/components/SearchResult.vue'
 import Header from '@/components/Header.vue'
+import Detail from '@/components/Detail.vue'
 
 export default {
   name: 'Home',
   components: {
-    SearchResult,
+    Detail,
     Header
   
   }
